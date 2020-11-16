@@ -12,7 +12,7 @@ Address:
 using namespace std;
 
 // 方法二：
-class Solution {
+class Solution_2 {
 public:
     vector<vector<int>> minimumAbsDifference(vector<int>& arr) {
         vector<vector<int>> ans;
