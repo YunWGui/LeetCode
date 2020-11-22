@@ -139,6 +139,7 @@
 | 238 | Product of Array Except Self | Array |
 | 239 | Sliding Window Maximum | Sliding Window |
 | 240 | Search_a_2D_Matrix_II | Array |
+| 242 | Valid Anagram | Hash Table |
 | 256 | Paint House | Dynamic Programming |
 | 258 | Add Digits | Math |
 | 260 | Single Number III | Bit Operation |
