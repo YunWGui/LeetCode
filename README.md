@@ -113,6 +113,7 @@
 | 153 | Find_Minimum_in_Rotated_Sorted_Array | Binary Search |
 | 154 | Find_Minimum_in_Rotated_Sorted_Array_II | Binary Search |
 | 160 | Intersection of Two Linked Lists | Linked List |
+| 164 | Maximum Gap | Sort |
 | 167 | Two Sum II Input array is sorted | Two Pointers |
 | 168 | Excel Sheet Column Title | Math |
 | 169 | Majority_Element | Hash Table |
