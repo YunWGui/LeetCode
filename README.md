@@ -156,6 +156,7 @@
 | 312 | Burst Balloons | Dynamic Programming |
 | 322 | Coin Change | Dynamic Programming |
 | 326 | Power of Three | Math |
+| 344 | Reverse String | String |
 | 343 | Integer Break | Dynamic Programming |
 | 347 | Top-K Frequent Elements | Heap & Priority_queue |
 | 354 | Russian Doll Envelopes | Dynamic Programming |
