@@ -1,6 +1,10 @@
 ## Disjoint Set （并查集）
 
-关于「并查集」的讲解，可参考**B站UP主-正月点灯笼**的视频。[BV13t411v7Fs](https://www.bilibili.com/video/BV13t411v7Fs)
+**参考资料**
+
+- **B站UP主-正月点灯笼**的视频。[BV13t411v7Fs](https://www.bilibili.com/video/BV13t411v7Fs)
+
+- [Union-Find算法详解 - labuladong的算法小抄](https://labuladong.gitbook.io/algo/shu-ju-jie-gou-xi-lie/2.4-shou-ba-shou-she-ji-shu-ju-jie-gou/unionfind-suan-fa-xiang-jie)
 
 
 **模板**
