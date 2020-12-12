@@ -113,6 +113,7 @@
 | 153 | Find_Minimum_in_Rotated_Sorted_Array | Binary Search |
 | 154 | Find_Minimum_in_Rotated_Sorted_Array_II | Binary Search |
 | 160 | Intersection of Two Linked Lists | Linked List |
+| 164 | Maximum Gap | Sort |
 | 167 | Two Sum II Input array is sorted | Two Pointers |
 | 168 | Excel Sheet Column Title | Math |
 | 169 | Majority_Element | Hash Table |
@@ -139,6 +140,7 @@
 | 238 | Product of Array Except Self | Array |
 | 239 | Sliding Window Maximum | Sliding Window |
 | 240 | Search_a_2D_Matrix_II | Array |
+| 242 | Valid Anagram | Hash Table |
 | 256 | Paint House | Dynamic Programming |
 | 258 | Add Digits | Math |
 | 260 | Single Number III | Bit Operation |
@@ -154,6 +156,7 @@
 | 312 | Burst Balloons | Dynamic Programming |
 | 322 | Coin Change | Dynamic Programming |
 | 326 | Power of Three | Math |
+| 344 | Reverse String | String |
 | 343 | Integer Break | Dynamic Programming |
 | 347 | Top-K Frequent Elements | Heap & Priority_queue |
 | 354 | Russian Doll Envelopes | Dynamic Programming |
