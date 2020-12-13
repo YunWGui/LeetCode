@@ -10,8 +10,19 @@ Address:
 #include <vector>
 using namespace std;
 
+// 方法二：
+/*
+    思路：每场比赛会淘汰一支队伍，最终只有一支队伍胜出，即要淘汰 N - 1 支队伍，因此
+          需要 N - 1 场比赛
+*/
+class Solution_2 {
+public:
+    int numberOfMatches(int n) {
+        return n - 1;
+    }
+};
 
-// 方法一：
+// 方法一：模拟
 class Solution {
 public:
     int numberOfMatches(int n) {
@@ -20,7 +31,8 @@ public:
         while ( n > 1 ) {
             cnt += ( n >> 1 );
             
-            n = ( n & 1 ) ? ( n >> 1 ) + 1: ( n >> 1 );
+            // n = ( n & 1 ) ? ( n >> 1 ) + 1: ( n >> 1 );
+            n = n / 2 + n % 2;
         }
         
         return cnt;
