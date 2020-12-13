@@ -4,6 +4,7 @@ Title:
     5609. 统计一致字符串的数目
 Address: 
     https://leetcode-cn.com/contest/biweekly-contest-41/problems/count-the-number-of-consistent-strings/
+    https://leetcode-cn.com/problems/count-the-number-of-consistent-strings/
 */
 
 
@@ -19,7 +20,7 @@ public:
     int countConsistentStrings(string allowed, vector<string>& words) {
         int cnt = words.size();
         
-        for ( string str : words ) {
+        for ( string& str : words ) {
             for ( char ch : str )
                 if ( allowed.find( ch ) == string::npos ) {
                     --cnt;
