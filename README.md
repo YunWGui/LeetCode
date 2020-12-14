@@ -241,3 +241,4 @@
 | 1546 | Maximum Number of Non Overlapping Subarrays With Sum Equals Target | Dynamic Programming |
 | 1547 | Minimum Cost to Cut a Stick | Dynamic Programming |
 | 1684 | [Count the Number of Consistent Strings](https://leetcode-cn.com/problems/count-the-number-of-consistent-strings/) | String |
+| 1688 | [Count the Number of Consistent Strings](https://leetcode-cn.com/problems/count-of-matches-in-tournament/)| Math |

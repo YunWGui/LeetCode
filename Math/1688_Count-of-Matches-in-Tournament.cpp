@@ -1,9 +1,9 @@
 /*
 Title:
-    5625. Count of Matches in Tournament
-    5625. 比赛中的配对次数
+    1688. Count of Matches in Tournament
+    1688. 比赛中的配对次数
 Address: 
-    https://leetcode-cn.com/contest/weekly-contest-219/problems/count-of-matches-in-tournament/
+    https://leetcode-cn.com/problems/count-of-matches-in-tournament/
 */
 
 #include <iostream>
