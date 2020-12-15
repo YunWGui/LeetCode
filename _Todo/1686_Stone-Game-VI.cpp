@@ -1,7 +1,7 @@
 /*
 Title:
-    5611. Stone Game VI
-    5611. 石子游戏 VI
+    1686. Stone Game VI
+    1686. 石子游戏 VI
 Address: 
     https://leetcode-cn.com/problems/stone-game-vi/
 */
@@ -9,6 +9,8 @@ Address:
 #include <iostream>
 #include <vector>
 using namespace std;
+
+// https://zxi.mytechroad.com/blog/greedy/leetcode-1686-stone-game-vi/
 
 // 方法一：贪心、博弈论
 class Solution {
