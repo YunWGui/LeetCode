@@ -10,7 +10,11 @@ Address:
 #include <vector>
 using namespace std;
 
-// 方法一：前缀和 
+// 方法一：前缀和
+/*
+题解：
+    根据题意，数组 nums 是「非递减」的，因此该数组的「前缀和」要么不变，要么递增
+*/
 class Solution {
 public:
     vector<int> getSumAbsoluteDifferences(vector<int>& nums) {
