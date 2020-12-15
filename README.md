@@ -241,5 +241,6 @@
 | 1546 | Maximum Number of Non Overlapping Subarrays With Sum Equals Target | Dynamic Programming |
 | 1547 | Minimum Cost to Cut a Stick | Dynamic Programming |
 | 1684 | Count the Number of Consistent Strings | String |
+| 1685 | Sum of Absolute Differences in a Sorted Array | Prefix Sum |
 | 1688 | Count the Number of Consistent Strings | Math |
 | 1689 | Partitioning Into Minimum Number Of Deci-Binary Numbers | Greedy | 
