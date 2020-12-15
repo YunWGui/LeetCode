@@ -10,7 +10,7 @@ Address:
 #include <vector>
 using namespace std;
 
-// 方法一：前缀和
+// 方法一：前缀和 
 class Solution {
 public:
     vector<int> getSumAbsoluteDifferences(vector<int>& nums) {
