@@ -3,7 +3,6 @@ Title:
     1690. Stone Game VII
     1690. 石子游戏 VII
 Address: 
-    https://leetcode-cn.com/contest/weekly-contest-219/problems/stone-game-vii/
     https://leetcode-cn.com/problems/stone-game-vii/
 */
 
