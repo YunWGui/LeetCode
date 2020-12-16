@@ -13,6 +13,34 @@ Address:
 #include <functional> // std::function
 using namespace std;
 
+// 方法一：博弈论、区间 DP
+// 博弈论：最坏情况下最好
+// https://www.acwing.com/activity/content/code/content/637510/
+// 视频：AcWing - https://www.acwing.com/video/2149/
+class Solution {
+public:
+    int stoneGameVII(vector<int>& stones) {
+        int n = stones.size();
+        vector<int> prefixSum( n + 1, 0 );
+        
+        for ( int i = 1; i <= n; ++i ) 
+            prefixSum[i] = prefixSum[i - 1] + stones[i - 1];
+        
+        vector<vector<int>> dp( n + 1, vector<int>( n + 1, 0 ) );
+
+        for ( int len = 2; len <= n; ++len ) {
+            for ( int left = 1; left + len - 1 <= n; ++left ) {  // 前缀和下标一般从 1 开始
+                int right = left + len - 1;
+                dp[left][right] = max( prefixSum[right] - prefixSum[left] - dp[left + 1][right],
+                                       prefixSum[right - 1] - prefixSum[left - 1] - dp[left][right - 1] );
+            }
+        }
+
+        return dp[1][n];        
+    }
+};
+
+
 // 方法二：
 // Author: Huahua
 // https://zxi.mytechroad.com/blog/dynamic-programming/leetcode-1690-stone-game-vii/
@@ -32,30 +60,6 @@ public:
         };
 
         return dp(0, n - 1, accumulate(begin(stones), end(stones), 0));
-    }
-};
-
-// 方法一：博弈论、区间 DP
-// https://www.acwing.com/activity/content/code/content/637510/
-class Solution {
-public:
-    int stoneGameVII(vector<int>& stones) {
-        int n = stones.size();
-        vector<int> nums(n + 1);
-        
-        for (int i = 1; i <= n; i ++ ) 
-            nums[i] = nums[i - 1] + stones[i - 1];
-        
-        vector<vector<int>> dp(n + 1, vector<int>(n + 1));
-        
-        for (int len = 2; len <= n; len ++ ) {
-            for (int i = 1; i + len - 1 <= n; i ++ ) {
-                int j = i + len - 1;
-                dp[i][j] = max(nums[j] - nums[i] - dp[i + 1][j], nums[j - 1] - nums[i - 1] - dp[i][j - 1]);
-            }
-        }
-        
-        return dp[1][n];
     }
 };
 
