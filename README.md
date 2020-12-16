@@ -242,6 +242,7 @@
 | 1547 | Minimum Cost to Cut a Stick | Dynamic Programming |
 | 1684 | Count the Number of Consistent Strings | String |
 | 1685 | Sum of Absolute Differences in a Sorted Array | Prefix Sum |
+| 1686 | Stone Game VI | Greedy |
 | 1688 | Count the Number of Consistent Strings | Math |
 | 1689 | Partitioning Into Minimum Number Of Deci-Binary Numbers | Greedy | 
 | 1690 | Stone Game VII | Dynamic Programming |
