@@ -150,6 +150,7 @@
 | 276 | Paint Fence | Dynamic Programming |
 | 283 | Move Zeroes | Array |
 | 289 | Game of Life | Bit Operation |
+| 290 | Word Pattern | Hash Table |
 | 292 | Nim Game | Math |
 | 295 | Find Median from Data Stream | Heap & Priority_queue |
 | 300 | Longest Increasing Subsequence | Dynamic Programming |
@@ -165,6 +166,7 @@
 | 367 | Valid Perfect Square | Math |
 | 371 | Sum of Two Integers | Math |
 | 372 | Super Pow | Math |
+| 389 | Find the Difference | Bit Operation |
 | 398 | Random Pick Index | Reservoir Sampling |
 | 400 | Nth Digit | Math |
 | 409 | Longest Palindrome | String |
