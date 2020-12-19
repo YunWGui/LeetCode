@@ -15,10 +15,10 @@ class Solution:
             return False
 
         for ch, strr in zip(pattern, ls):  # dic[ch] = strr
-            if ch in dic:
+            if ch in dic.keys():
                 if dic[ch] != strr:
                     return False 
-            else:
+            else:  # ch not in dic
                 if strr in dic.values():
                     return False
                 dic[ch] = strr 
