@@ -3,7 +3,7 @@
  *     5629. Reformat Phone Number
  *     5629. 重新格式化电话号码
  * Address: 
- *     https://leetcode-cn.com/contest/weekly-contest-220/problems/reformat-phone-number/
+ *     https://leetcode-cn.com/problems/reformat-phone-number/submissions/
  ******************************************************************************/
 
 #include <iostream>
@@ -41,6 +41,45 @@ public:
         }
         
         return number;
+    }
+};
+
+// 方法二：
+// 参考：https://mp.weixin.qq.com/s/LXySnfQwN7ZfIlvNaLeYRQ
+class Solution_2 {
+public:
+    string reformatNumber(string number) {
+        string str;
+        for ( char ch : number ) {
+            if ( '0' <= ch && ch <= '9' ) {
+                str.push_back( ch );
+            }
+        }
+        
+        string ans;
+        int cnt = 0;
+        for ( int i = 0; i < (int)str.size(); ) {
+            if ( ans.size() ) {
+                ans += "-";
+            }
+            
+            if ( i + 3 == (int)str.size() || i + 2 == (int)str.size() ) {
+                ans += str.substr( i );
+                break;
+            }
+            else if ( i + 4 == (int)str.size() ) {
+                ans += str.substr( i, 2 );
+                ans += "-";
+                ans += str.substr( i + 2, 2 );
+                break;
+            }
+            else {
+                ans += str.substr( i, 3 );
+                i += 3;
+            }
+        }
+        
+        return ans;
     }
 };
 

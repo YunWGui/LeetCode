@@ -5,3 +5,5 @@
  * Address: 
  *     https://leetcode-cn.com/contest/weekly-contest-220/problems/maximum-erasure-value/
  ******************************************************************************/
+
+// 参考：https://mp.weixin.qq.com/s/LXySnfQwN7ZfIlvNaLeYRQ
