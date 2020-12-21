@@ -1,7 +1,7 @@
 /*******************************************************************************
  * Title:
- *     5629. Reformat Phone Number
- *     5629. 重新格式化电话号码
+ *     1694. Reformat Phone Number
+ *     1694. 重新格式化电话号码
  * Address: 
  *     https://leetcode-cn.com/problems/reformat-phone-number/submissions/
  ******************************************************************************/
