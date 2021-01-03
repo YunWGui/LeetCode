@@ -40,4 +40,15 @@ class Solution {
 
         return ans >= n;
     }
+
+    public static void main( String[] args ) {
+        int[] arr = { 1, 0, 0, 0, 1 };
+        int n = 1;
+        
+        Solution solve = new Solution();
+
+        boolean ans = solve.canPlaceFlowers( arr, n );
+        
+        System.out.println( ans );
+    }
 }
