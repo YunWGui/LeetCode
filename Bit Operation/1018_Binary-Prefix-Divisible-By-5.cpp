@@ -18,10 +18,9 @@ public:
         int n = A.size();
         vector<bool> ans( n );
 
-        int number = ( A[0] == 0 ) ? 0 : 1;
-        ans[0] = ( number == 0 ) ? true : false;
+        int number = 0;
 
-        for ( int i = 1; i < n; ++i ) {
+        for ( int i = 0; i < n; ++i ) {
             number = ( number * 2 + A[i] ) % 5;
             
             ans[i] = ( number == 0 ) ? true : false;
