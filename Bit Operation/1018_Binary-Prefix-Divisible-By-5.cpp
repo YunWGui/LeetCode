@@ -11,7 +11,7 @@
 #include <vector>
 using namespace std;
 
-// 方法二：对方法一的简化
+// 方法二：对「方法一」的简化
 class Solution_2 {
 public:
     vector<bool> prefixesDivBy5(vector<int>& A) {
