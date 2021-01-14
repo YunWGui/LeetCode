@@ -225,6 +225,7 @@
 | 1002 | Find Common Characters | String |
 | 1004 | Max Consecutive Ones III | Sliding Window |
 | 1013 | Partition Array Into Three Parts With Equal Sum | Array |
+| 1018 | Binary Prefix Divisible By 5 | Bit Operation |
 | 1051 | Height Checker | Sort |
 | 1071 | Greatest Common Divisor of Strings | Math |
 | 1130 | Minimum Cost Tree From Leaf Values | Dynamic Programming |
