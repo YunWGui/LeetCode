@@ -235,6 +235,7 @@
 | 1167 | Minimum Cost to Connect Sticks | Heap & Priority_queue |
 | 1200 | Minimum Absolute Difference | Array |
 | 1207 | Unique Number of Occurrences | Hash Table |
+| 1232 | Check If It Is a Straight Line | Math |
 | 1248 | Count Number of Nice Subarrays | Sliding Window |
 | 1277 | Count Square Submatrices with All Ones | Dynamic Programming |
 | 1353 | Maximum Number of Events That Can Be Attended | Heap & Priority_queue |
