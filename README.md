@@ -196,6 +196,7 @@
 | 560 | Subarray Sum Equals K | Hash Table |
 | 572 | Subtree of Another Tree | Tree |
 | 617 | Merge Two Binary Trees | Tree |
+| 628 | Maximum Product of Three Numbers | Math |
 | 637 | Average of Levels in Binary Tree | Tree |
 | 645 | SetMismatch | Array |
 | 647 | Palindromic Substrings | String |
