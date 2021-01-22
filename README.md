@@ -220,6 +220,7 @@
 | 925 | Long Pressed Name | Two Pointers |
 | 945 | Minimum Increment to Make Array Unique | Array |
 | 946 | Validate Stack Sequences | Stack & Queue |
+| 989 | Add to Array-Form of Integer | Array |
 | 994 | Rotting Oranges | BackTracking & DFS & BFS |
 | 999 | Available Captures for Rook | BackTracking & DFS & BFS |
 | 1000 | Minimum Cost to Merge Stones | Dynamic Programming |
