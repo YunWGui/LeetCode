@@ -230,6 +230,7 @@
 | 1018 | Binary Prefix Divisible By 5 | Bit Operation |
 | 1051 | Height Checker | Sort |
 | 1071 | Greatest Common Divisor of Strings | Math |
+| 1128 | Number of Equivalent Domino Pairs | Hash Table |
 | 1130 | Minimum Cost Tree From Leaf Values | Dynamic Programming |
 | 1143 | Longest Common Subsequence | Dynamic Programming |
 | 1160 | Find Words That Can Be Formed by Characters | Hash Table |
