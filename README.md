@@ -7,6 +7,7 @@
 | 3 | Longest Substring Without Repeating Characters | String |
 | 4 | Median of Two Sorted Arrays | Array |
 | 5 | Longest Palindromic Substring | String |
+| 6 | ZigZag Conversion | String |
 | 7 | Reverse Integer | Math |
 | 8 | String to Integer | Math |
 | 9 | Palindrome Number | Math |
@@ -254,3 +255,4 @@
 | 1688 | Count the Number of Consistent Strings | Math |
 | 1689 | Partitioning Into Minimum Number Of Deci-Binary Numbers | Greedy | 
 | 1690 | Stone Game VII | Dynamic Programming |
+| 1694 | Reformat Phone Number | String |
