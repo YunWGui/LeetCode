@@ -9,6 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cctype>  // isdigit
 using namespace std;
 
 // 方法一：模拟
@@ -51,7 +52,8 @@ public:
     string reformatNumber(string number) {
         string str;
         for ( char ch : number ) {
-            if ( '0' <= ch && ch <= '9' ) {
+            // if ( '0' <= ch && ch <= '9' ) {  // 与下一行语义相同
+            if ( isdigit( ch ) ) {
                 str.push_back( ch );
             }
         }
