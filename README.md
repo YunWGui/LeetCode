@@ -214,6 +214,7 @@
 | 860 | Lemonade Change | Greedy |
 | 876 | Middle of the LinkedList | Linked List |
 | 887 | Super Egg Drop | Dynamic Programming |
+| 888 | Fair Candy Swap | Hash Table |
 | 892 | Surface Area of 3D Shapes | Math |
 | 905 | Sort Array By Parity | Array |
 | 912 | Sort an Array | Sort |
