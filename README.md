@@ -199,6 +199,7 @@
 | 617 | Merge Two Binary Trees | Tree |
 | 628 | Maximum Product of Three Numbers | Math |
 | 637 | Average of Levels in Binary Tree | Tree |
+| 643 | Maximum Average Subarray I | Sliding Window |
 | 645 | SetMismatch | Array |
 | 647 | Palindromic Substrings | String |
 | 662 | Maximum Width of Binary Tree | Tree |
