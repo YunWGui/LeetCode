@@ -111,8 +111,8 @@
 | 150  |                  Evaluate Reverse Polish Notation                  |      Stack & Queue       |
 | 151  |                     Reverse Words in a String                      |          String          |
 | 152  |                      Maximum Product Subarray                      |   Dynamic Programming    |
-| 153  |                Find_Minimum_in_Rotated_Sorted_Array                |      Binary Search       |
-| 154  |              Find_Minimum_in_Rotated_Sorted_Array_II               |      Binary Search       |
+| 153  |                Find_Minimum in Rotated Sorted Array                |      Binary Search       |
+| 154  |              Find Minimum in Rotated Sorted Array II               |      Binary Search       |
 | 160  |                  Intersection of Two Linked Lists                  |       Linked List        |
 | 164  |                            Maximum Gap                             |           Sort           |
 | 167  |                  Two Sum II Input array is sorted                  |       Two Pointers       |
@@ -140,7 +140,7 @@
 | 236  |              Lowest Common Ancestor of a Binary Tree               |           Tree           |
 | 238  |                    Product of Array Except Self                    |          Array           |
 | 239  |                       Sliding Window Maximum                       |      Sliding Window      |
-| 240  |                       Search_a_2D_Matrix_II                        |          Array           |
+| 240  |                       Search a 2D Matrix II                        |          Array           |
 | 242  |                           Valid Anagram                            |        Hash Table        |
 | 256  |                            Paint House                             |   Dynamic Programming    |
 | 258  |                             Add Digits                             |           Math           |
@@ -225,7 +225,7 @@
 | 925  |                         Long Pressed Name                          |       Two Pointers       |
 | 945  |               Minimum Increment to Make Array Unique               |          Array           |
 | 946  |                      Validate Stack Sequences                      |      Stack & Queue       |
-| 989  |                    Add to Array-Form of Integer                    |          Array           |
+| 989  |                    Add to Array Form of Integer                    |          Array           |
 | 994  |                          Rotting Oranges                           | BackTracking & DFS & BFS |
 | 999  |                    Available Captures for Rook                     | BackTracking & DFS & BFS |
 | 1000 |                    Minimum Cost to Merge Stones                    |   Dynamic Programming    |
