@@ -15,7 +15,7 @@
 |  11  |                     Container With Most Water                      |       Two Pointers       |
 |  14  |                       Longest Common Prefix                        |          String          |
 |  15  |                                3Sum                                |       Two Pointers       |
-|  16  |                            3Sum_Closet                             |       Two Pointers       |
+|  16  |                            3Sum Closet                             |       Two Pointers       |
 |  17  |               Letter Combinations of a Phone Number                | BackTracking & DFS & BFS |
 |  18  |                                4Sum                                |       Two Pointers       |
 |  19  |                  Remove Nth Node From End of List                  |       Linked List        |
