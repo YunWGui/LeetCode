@@ -169,6 +169,7 @@
 | 371  |                        Sum of Two Integers                         |           Math           |
 | 372  |                             Super Pow                              |           Math           |
 | 389  |                        Find the Difference                         |      Bit Operation       |
+| 392 | Is Subsequence | Two Pointer | Two Pointers |
 | 398  |                         Random Pick Index                          |    Reservoir Sampling    |
 | 400  |                             Nth Digit                              |           Math           |
 | 409  |                         Longest Palindrome                         |          String          |
