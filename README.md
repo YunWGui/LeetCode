@@ -162,12 +162,14 @@
 | 343  |                           Integer Break                            |   Dynamic Programming    |
 | 344  |                           Reverse String                           |          String          |
 | 347  |                      Top-K Frequent Elements                       |  Heap & Priority_queue   |
+| 349 | Intersection of Two Arrays | Hash Table |
 | 354  |                       Russian Doll Envelopes                       |   Dynamic Programming    |
 | 355  |                           Design Twitter                           |          Design          |
 | 365  |                       Water and Jug Problem                        |           Math           |
 | 367  |                        Valid Perfect Square                        |           Math           |
 | 371  |                        Sum of Two Integers                         |           Math           |
 | 372  |                             Super Pow                              |           Math           |
+| 383 | Ransom Note | Hash Table |
 | 389  |                        Find the Difference                         |      Bit Operation       |
 | 392 | Is Subsequence | Two Pointer | Two Pointers |
 | 398  |                         Random Pick Index                          |    Reservoir Sampling    |
