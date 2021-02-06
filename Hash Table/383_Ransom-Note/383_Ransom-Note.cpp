@@ -9,7 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
-#include <cstring>  // memset
+#include <cstring>  // 即：string.h，引入 memset
 using namespace std;
 
 // 方法二：哈希表
