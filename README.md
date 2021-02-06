@@ -248,6 +248,7 @@
 | 1248 |                   Count Number of Nice Subarrays                   |      Sliding Window      |
 | 1277 |               Count Square Submatrices with All Ones               |   Dynamic Programming    |
 | 1353 |           Maximum Number of Events That Can Be Attended            |  Heap & Priority_queue   |
+| 1423 | Maximum Points You Can Obtain from Cards | Sliding Window |
 | 1477 |      Find Two Non overlapping Sub arrays Each With Target Sum      |   Dynamic Programming    |
 | 1544 |                       Make The String Great                        |      Stack & Queue       |
 | 1545 |                 Find Kth Bit in Nth Binary String                  |          String          |
