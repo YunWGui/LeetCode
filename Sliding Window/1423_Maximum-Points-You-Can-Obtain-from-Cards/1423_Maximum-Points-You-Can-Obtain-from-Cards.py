@@ -16,7 +16,7 @@ class Solution:
         sumPoints = maxPoints
 
         # [1, 2, 3, 4, 5, 6, 1], k = 3
-        #  <--i           <--j  # i, j 移动方向
+        #  <--i           <--j  # i, j 移动方向，使得窗口大小始终是 k 
         
         i = k - 1  # 右边界一
         j = len(cardPoints) - 1  # 右边界二

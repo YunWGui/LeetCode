@@ -19,7 +19,7 @@ public:
         int sumPoints = maxPoints;
 
         // [1, 2, 3, 4, 5, 6, 1], k = 3
-        //  <--i           <--j  # i, j 移动方向
+        //  <--i           <--j  # i, j 移动方向，使得窗口大小始终是 k 
         
         int i = k - 1, j = cardPoints.size() - 1;
         while ( i >= 0 ) {
