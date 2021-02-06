@@ -15,10 +15,10 @@ using namespace std;
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-        vector<int> ans;
         unordered_set<int> hashSet1( nums1.begin(), nums1.end() );
         unordered_set<int> hashSet2( nums2.begin(), nums2.end() );
 
+        vector<int> ans;
         for ( auto iter = hashSet1.begin(); iter != hashSet1.end(); ++iter ) {
             if ( hashSet2.count( *iter ) )
                 ans.push_back( *iter );
