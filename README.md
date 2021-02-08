@@ -210,6 +210,7 @@
 | 662  |                    Maximum Width of Binary Tree                    |           Tree           |
 | 692  |                        Top K Frequent Words                        |  Heap & Priority_queue   |
 | 695  |                         Max Area of Island                         | BackTracking & DFS & BFS |
+| 704 | Binary Search | Binary Search |
 | 724  |                          Find Pivot Index                          |          Array           |
 | 752  |                           Open the Lock                            | BackTracking & DFS & BFS |
 | 766  |                          Toeplitz Matrix                           |          Array           |
