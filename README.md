@@ -92,8 +92,8 @@
 | 112  |                              Path Sum                              |           Tree           |
 | 113  |                            Path Sum II                             |           Tree           |
 | 115  |                             Min Stack                              |      Stack & Queue       |
-| 118  |                         Pascal's Triangle                          |   Dynamic Programming    |
-| 119  |                        Pascal's Triangle II                        |   Dynamic Programming    |
+| 118  |                         Pascal's Triangle                          |   Array    |
+| 119  |                        Pascal's Triangle II                        |   Array    |
 | 121  |                  Best Time to Buy and Sell Stock                   |   Dynamic Programming    |
 | 122  |                 Best Time to Buy and Sell Stock II                 |   Dynamic Programming    |
 | 125  |                          Valid Palindrome                          |          String          |
