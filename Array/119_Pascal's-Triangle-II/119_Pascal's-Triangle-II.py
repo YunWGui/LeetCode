@@ -22,6 +22,7 @@ class Solution:
         return kRows
 
 # 方法二：线性递推
+# 参考：https://leetcode-cn.com/problems/pascals-triangle-ii/solution/yang-hui-san-jiao-ii-by-leetcode-solutio-shuk/
 class Solution_2:
     def getRow(self, rowIndex: int) -> List[int]:
         kRows = [_ for _ in range(rowIndex + 1)]
