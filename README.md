@@ -180,6 +180,7 @@
 | 424  |              Longest Repeating Character Replacement               |      Sliding Window      |
 | 438  |                   Find All Anagrams in a String                    |      Sliding Window      |
 | 445  |                         Add Two Numbers II                         |       Linked List        |
+| 448 | Find All Numbers Disappeared in an Array | Array |
 | 455  |                           Assign Cookies                           |          Greedy          |
 | 459  |                     Repeated Substring Pattern                     |          String          |
 | 460  |                             LFU Cache                              |        Hash Table        |
