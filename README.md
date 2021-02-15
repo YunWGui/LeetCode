@@ -188,6 +188,7 @@
 | 463  |                          Island Perimeter                          |          Array           |
 | 466  |                       Count The Repetitions                        |   Dynamic Programming    |
 | 470  |                  Implement Rand10() Using Rand7()                  |          Random          |
+| 485 | Max Consecutive Ones | Array |
 | 486  |                         Predict the Winner                         |   Dynamic Programming    |
 | 491  |                      Increasing Subsequences                       | BackTracking & DFS & BFS |
 | 509  |                          Fibonacci Number                          |   Dynamic Programming    |
