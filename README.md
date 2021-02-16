@@ -201,6 +201,7 @@
 | 547  |                           Friend Circles                           |       Disjoint Set       |
 | 557  |                   Reverse Words in a String III                    |          String          |
 | 560  |                       Subarray Sum Equals K                        |        Hash Table        |
+| 561 | Array Partition I | Sort |
 | 572  |                      Subtree of Another Tree                       |           Tree           |
 | 617  |                       Merge Two Binary Trees                       |           Tree           |
 | 628  |                  Maximum Product of Three Numbers                  |           Math           |
