@@ -40,25 +40,27 @@ public:
 class Solution_2 {
 public:
     int longestOnes(vector<int>& A, int K) {
-        int left = 0, right = 0;
-        int count = 0;
+        int cnt = 0;  // 统计数组 A 中 0 的个数
         int ans = 0;
-
-        while (right < (int)A.size()) {
-            if (A[right] == 0) 
-                count++;
-            while (count > K) {
-                if (A[left] == 0) 
-                    count--;
-                left++;
+        
+        int left = 0, right = 0;
+        while ( right < (int)A.size() ) {
+            if ( A[right] == 0 )
+                ++cnt;
+            
+            while ( cnt > K ) {
+                if ( A[left] == 0 )
+                    --cnt;
+                ++left;
             }
-            ans = max(ans, right - left + 1);
-            right++;
+
+            ans = max( ans, right - left + 1 );
+            ++right;
         }
+
         return ans;
     }
 };
-
 
 int main()
 {
