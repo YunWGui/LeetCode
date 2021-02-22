@@ -18,15 +18,15 @@ public:
     bool isToeplitzMatrix(vector<vector<int>>& matrix) {
         int rows = matrix.size(), cols = matrix[0].size();
 
-        for ( int i = 1; i < rows; ++i ) 
-            for ( int j = 1; j < cols; ++j ) 
-                if ( matrix[i][j] != matrix[i - 1][j - 1] ) 
+        for ( int row = 1; row < rows; ++row ) {
+            for ( int col = 1; col < cols; ++col )
+                if ( matrix[row][col] != matrix[row - 1][col - 1] )
                     return false;
+        }
 
         return true;
     }
 };
-
 
 // 方法一：
 class Solution {
@@ -58,6 +58,33 @@ public:
                 if ( val != matrix[i][j] )
                     return false;
                 ++i; ++j;
+            }
+        }
+
+        return true;
+    }
+};
+
+
+// 方法一的改写
+class Solution_1 {
+public:
+    bool isToeplitzMatrix(vector<vector<int>>& matrix) {
+        int rows = matrix.size(), cols = matrix[0].size();
+
+        for ( int col = 0; col < cols; ++col ) {
+            int row = 0;
+            for ( int r = row + 1, c = col + 1; r < rows && c < cols; ++r, ++c ) {
+                if ( matrix[row][col] != matrix[r][c] )
+                    return false;
+            }
+        }
+
+        for ( int row = 1; row < rows; ++row ) {
+            int col = 0;
+            for ( int r = row + 1, c = col + 1; r < rows && c < cols; ++r, ++c ) {
+                if ( matrix[row][col] != matrix[r][c] )
+                    return false;
             }
         }
 
