@@ -28,6 +28,25 @@ public:
     }
 };
 
+// 方法二：线性递推
+// 参考：https://leetcode-cn.com/problems/pascals-triangle-ii/solution/yang-hui-san-jiao-ii-by-leetcode-solutio-shuk/
+class Solution_2 {
+public:
+    vector<int> getRow(int rowIndex) {
+        vector<int> kRows( rowIndex + 1 );
+
+        kRows[0] = 1;
+        for ( int i = 1; i <= rowIndex; ++i ) {
+            kRows[i] = 1LL * kRows[i - 1] * ( rowIndex - i + 1 ) / i;  // 1LL -> 防溢出
+        }
+        
+        return kRows;
+    }
+};
+
+
+
+
 int main()
 {
 

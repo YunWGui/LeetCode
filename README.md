@@ -92,8 +92,8 @@
 | 112  |                              Path Sum                              |           Tree           |
 | 113  |                            Path Sum II                             |           Tree           |
 | 115  |                             Min Stack                              |      Stack & Queue       |
-| 118  |                         Pascal's Triangle                          |   Dynamic Programming    |
-| 119  |                        Pascal's Triangle II                        |   Dynamic Programming    |
+| 118  |                         Pascal's Triangle                          |   Array    |
+| 119  |                        Pascal's Triangle II                        |   Array    |
 | 121  |                  Best Time to Buy and Sell Stock                   |   Dynamic Programming    |
 | 122  |                 Best Time to Buy and Sell Stock II                 |   Dynamic Programming    |
 | 125  |                          Valid Palindrome                          |          String          |
@@ -180,6 +180,7 @@
 | 424  |              Longest Repeating Character Replacement               |      Sliding Window      |
 | 438  |                   Find All Anagrams in a String                    |      Sliding Window      |
 | 445  |                         Add Two Numbers II                         |       Linked List        |
+| 448 | Find All Numbers Disappeared in an Array | Array |
 | 455  |                           Assign Cookies                           |          Greedy          |
 | 459  |                     Repeated Substring Pattern                     |          String          |
 | 460  |                             LFU Cache                              |        Hash Table        |
@@ -187,6 +188,7 @@
 | 463  |                          Island Perimeter                          |          Array           |
 | 466  |                       Count The Repetitions                        |   Dynamic Programming    |
 | 470  |                  Implement Rand10() Using Rand7()                  |          Random          |
+| 485 | Max Consecutive Ones | Array |
 | 486  |                         Predict the Winner                         |   Dynamic Programming    |
 | 491  |                      Increasing Subsequences                       | BackTracking & DFS & BFS |
 | 509  |                          Fibonacci Number                          |   Dynamic Programming    |
@@ -199,6 +201,7 @@
 | 547  |                           Friend Circles                           |       Disjoint Set       |
 | 557  |                   Reverse Words in a String III                    |          String          |
 | 560  |                       Subarray Sum Equals K                        |        Hash Table        |
+| 561 | Array Partition I | Sort |
 | 572  |                      Subtree of Another Tree                       |           Tree           |
 | 617  |                       Merge Two Binary Trees                       |           Tree           |
 | 628  |                  Maximum Product of Three Numbers                  |           Math           |
@@ -206,9 +209,11 @@
 | 643  |                     Maximum Average Subarray I                     |      Sliding Window      |
 | 645  |                            SetMismatch                             |          Array           |
 | 647  |                       Palindromic Substrings                       |          String          |
+| 657 | Robot Return to Origin | String |
 | 662  |                    Maximum Width of Binary Tree                    |           Tree           |
 | 692  |                        Top K Frequent Words                        |  Heap & Priority_queue   |
 | 695  |                         Max Area of Island                         | BackTracking & DFS & BFS |
+| 704 | Binary Search | Binary Search |
 | 724  |                          Find Pivot Index                          |          Array           |
 | 752  |                           Open the Lock                            | BackTracking & DFS & BFS |
 | 766  |                          Toeplitz Matrix                           |          Array           |
