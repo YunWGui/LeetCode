@@ -26,6 +26,7 @@ using namespace std;
 
 
 // 方法一：动态规划 - 自下而上
+// 【完全背包】
 // https://leetcode-cn.com/problems/coin-change/solution/322-ling-qian-dui-huan-by-leetcode-solution/
 class Solution {
 public:
@@ -36,11 +37,11 @@ public:
         vector<int> dp( amount + 1, amount + 1 );
 
         dp[0] = 0;  // 置零
-        for ( int i = 1; i <= amount; ++i ) {
-            for ( int j = 0; j < (int)coins.size(); ++j ) {
-                if ( coins[j] <= i ) {
+        for ( int i = 1; i <= amount; ++i ) {  // i : 当前金额
+            for ( int coin : coins ) {  // coin : 当前硬币面值
+                if ( coin <= i ) {  
                     // 初始时, dp[i] == amount + 1, 表示最坏情况
-                    dp[i] = min( dp[i], dp[i - coins[j]] + 1 );
+                    dp[i] = min( dp[i], dp[i - coin] + 1 );
                 }
             }
         }

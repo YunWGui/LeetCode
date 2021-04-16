@@ -14,7 +14,12 @@ Address:
 #include <vector>
 using namespace std;
 
+/********
+ * 【完全背包】 
+ * ******/
+
 // 方法一：动态规划 - 一维数组
+// https://mp.weixin.qq.com/s/zGJZpsGVMlk-Vc2PEY4RPw
 class Solution_2 {
 public:
     int change(int amount, vector<int>& coins) {
@@ -42,6 +47,7 @@ public:
         for ( int i = 0; i <= n; ++i ) {
             dp[i][0] = 1;
         }
+
         for ( int i = 1; i <= n; ++i ) {
             for ( int j = 1; j <= amount; ++j ) {
                 if ( j - coins[i - 1] >= 0 )
