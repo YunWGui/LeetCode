@@ -130,6 +130,7 @@
 | 206  |                        Reverse Linked List                         |       Linked List        |
 | 213  |                          House Robber II                           |   Dynamic Programming    |
 | 215  |                  Kth Largest Element in an Array                   |  Heap & Priority_queue   |
+| 217 | Contains Duplicate | Hash Table |
 | 221  |                           Maximal Square                           |   Dynamic Programming    |
 | 225  |                    Implement Stack using Queues                    |      Stack & Queue       |
 | 226  |                         Invert Binary Tree                         |           Tree           |
