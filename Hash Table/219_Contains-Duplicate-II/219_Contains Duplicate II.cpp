@@ -15,14 +15,14 @@ using namespace std;
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
-        set<int> scan;
+        set<int> record;
         for ( int i = 0; i < (int)nums.size(); ++i ) {
-            if ( scan.find( nums[i] ) != scan.end() )
+            if ( record.find( nums[i] ) != record.end() )
                 return true;
             
-            scan.insert( nums[i] );
-            if ( scan.size() > k )
-                scan.erase( nums[i - k] );
+            record.insert( nums[i] );
+            if ( record.size() > k )
+                record.erase( nums[i - k] );
         }
 
         return false;
