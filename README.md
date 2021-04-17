@@ -61,6 +61,7 @@
 |  69  |                              Sqrt(x)                               |           Math           |
 |  70  |                          Climbing Stairs                           |   Dynamic Programming    |
 |  72  |                           Edit Distance                            |   Dynamic Programming    |
+| 73 | Set Matrix Zeroes | Array |
 |  74  |                         Search a 2D Matrix                         |          Array           |
 |  75  |                            Sort Colors                             |       Two Pointers       |
 |  76  |                      Minimum Window Substring                      |      Sliding Window      |
