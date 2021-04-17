@@ -6,6 +6,8 @@
  *     https://leetcode-cn.com/problems/contains-duplicate-iii/
 """
 
+import bisect
+
 # https://leetcode-cn.com/problems/contains-duplicate-iii/solution/fu-xue-ming-zhu-hua-dong-chuang-kou-mo-b-jnze/
 class Solution(object):
     def containsNearbyAlmostDuplicate(self, nums, k, t):
