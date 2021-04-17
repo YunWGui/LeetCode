@@ -120,6 +120,7 @@
 | 169  |                          Majority_Element                          |        Hash Table        |
 | 171  |                     Excel Sheet Column Number                      |           Math           |
 | 172  |                     Factorial Trailing Zeroes                      |           Math           |
+| 179 | Largest Number | Sort |
 | 191  |                          Number of 1 Bits                          |      Bit Operation       |
 | 198  |                            House Robber                            |   Dynamic Programming    |
 | 200  |                         Number of Islands                          | BackTracking & DFS & BFS |
