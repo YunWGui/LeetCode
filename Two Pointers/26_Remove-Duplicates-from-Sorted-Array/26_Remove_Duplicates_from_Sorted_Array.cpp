@@ -25,7 +25,7 @@ public:
                 nums[++k] = nums[i];
         }
 
-        return ++k;
+        return k + 1;
     }
 };
 
@@ -45,7 +45,7 @@ public:
             else
                 nums[++i] = nums[j++];
         }
-        return ++i;
+        return i + 1;
     }
 };
 
@@ -66,8 +66,7 @@ public:
             if ( right >= n )
                 break;
             
-            nums[++left] = nums[right];
-            ++right;
+            nums[++left] = nums[right++];
         }
 
         nums.resize( left + 1 );
