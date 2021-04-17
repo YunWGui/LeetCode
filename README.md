@@ -43,6 +43,7 @@
 |  46  |                            Permutations                            | BackTracking & DFS & BFS |
 |  47  |                          Permutations II                           | BackTracking & DFS & BFS |
 |  48  |                            Rotate Image                            |          Array           |
+| 49 | 49.Group Anagrams | Sort |
 |  50  |                              Pow(x,n)                              |           Math           |
 |  51  |                              N Queens                              | BackTracking & DFS & BFS |
 |  52  |                            N Queens II                             | BackTracking & DFS & BFS |
