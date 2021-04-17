@@ -133,6 +133,7 @@
 | 215  |                  Kth Largest Element in an Array                   |  Heap & Priority_queue   |
 | 217 | Contains Duplicate | Hash Table |
 | 219 | Contains Duplicate II | Hash Table |
+| 220 | Contains Duplicate III | Hash Table |
 | 221  |                           Maximal Square                           |   Dynamic Programming    |
 | 225  |                    Implement Stack using Queues                    |      Stack & Queue       |
 | 226  |                         Invert Binary Tree                         |           Tree           |

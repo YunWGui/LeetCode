@@ -6,7 +6,6 @@
  *     https://leetcode-cn.com/problems/contains-duplicate-iii/
  ******************************************************************************/
 
-
 #include <iostream>
 #include <vector>
 #include <set>
@@ -20,14 +19,15 @@ public:
         if ( k < 0 || t < 0 || nums.size() < 2 )
             return false;
 
-        set<long> scan;
+        set<long> record;
         for ( int i = 0; i < (int)nums.size(); ++i ) {
-            auto pos = scan.lower_bound( (long)nums[i] - t );
-            if ( pos != scan.end() && *pos <= (long)nums[i] + t )
+            auto pos = record.lower_bound( (long)nums[i] - t );
+            if ( pos != record.end() && *pos <= (long)nums[i] + t )
                 return true;
-            scan.insert( nums[i] );    
-            if ( scan.size() > k )
-                scan.erase( nums[i - k] );
+                
+            record.insert( nums[i] );    
+            if ( record.size() > k )
+                record.erase( nums[i - k] );
         }
 
         return false;
