@@ -39,12 +39,12 @@
 |  41  |                       First Missing Positive                       |          Array           |
 |  42  |                        Trapping Rain Water                         |      Stack & Queue       |
 |  43  |                          Multiply Strings                          |           Math           |
-|  45  |                            Jump Game II                            |          Greedy          |
+|  45  |                          3   Jump Game II                          |          Greedy          |
 |  46  |                            Permutations                            | BackTracking & DFS & BFS |
 |  47  |                          Permutations II                           | BackTracking & DFS & BFS |
 |  48  |                            Rotate Image                            |          Array           |
-| 49 | 49.Group Anagrams | Sort |
-|  50  |                              Pow(x,n)                              |           Math           |
+|  49  |                           Group Anagrams                           |           Sort           |
+|  50  |                             Pow(x, n)                              |           Math           |
 |  51  |                              N Queens                              | BackTracking & DFS & BFS |
 |  52  |                            N Queens II                             | BackTracking & DFS & BFS |
 |  53  |                          Maximum Subarray                          |      Sliding Window      |
@@ -61,7 +61,7 @@
 |  69  |                              Sqrt(x)                               |           Math           |
 |  70  |                          Climbing Stairs                           |   Dynamic Programming    |
 |  72  |                           Edit Distance                            |   Dynamic Programming    |
-| 73 | Set Matrix Zeroes | Array |
+|  73  |                         Set Matrix Zeroes                          |          Array           |
 |  74  |                         Search a 2D Matrix                         |          Array           |
 |  75  |                            Sort Colors                             |       Two Pointers       |
 |  76  |                      Minimum Window Substring                      |      Sliding Window      |
@@ -94,8 +94,8 @@
 | 112  |                              Path Sum                              |           Tree           |
 | 113  |                            Path Sum II                             |           Tree           |
 | 115  |                             Min Stack                              |      Stack & Queue       |
-| 118  |                         Pascal's Triangle                          |   Array    |
-| 119  |                        Pascal's Triangle II                        |   Array    |
+| 118  |                         Pascal's Triangle                          |          Array           |
+| 119  |                        Pascal's Triangle II                        |          Array           |
 | 121  |                  Best Time to Buy and Sell Stock                   |   Dynamic Programming    |
 | 122  |                 Best Time to Buy and Sell Stock II                 |   Dynamic Programming    |
 | 125  |                          Valid Palindrome                          |          String          |
@@ -122,7 +122,7 @@
 | 169  |                          Majority_Element                          |        Hash Table        |
 | 171  |                     Excel Sheet Column Number                      |           Math           |
 | 172  |                     Factorial Trailing Zeroes                      |           Math           |
-| 179 | Largest Number | Sort |
+| 179  |                           Largest Number                           |           Sort           |
 | 191  |                          Number of 1 Bits                          |      Bit Operation       |
 | 198  |                            House Robber                            |   Dynamic Programming    |
 | 200  |                         Number of Islands                          | BackTracking & DFS & BFS |
@@ -133,9 +133,9 @@
 | 206  |                        Reverse Linked List                         |       Linked List        |
 | 213  |                          House Robber II                           |   Dynamic Programming    |
 | 215  |                  Kth Largest Element in an Array                   |  Heap & Priority_queue   |
-| 217 | Contains Duplicate | Hash Table |
-| 219 | Contains Duplicate II | Hash Table |
-| 220 | Contains Duplicate III | Hash Table |
+| 217  |                         Contains Duplicate                         |        Hash Table        |
+| 219  |                       Contains Duplicate II                        |        Hash Table        |
+| 220  |                       Contains Duplicate III                       |        Hash Table        |
 | 221  |                           Maximal Square                           |   Dynamic Programming    |
 | 225  |                    Implement Stack using Queues                    |      Stack & Queue       |
 | 226  |                         Invert Binary Tree                         |           Tree           |
@@ -168,16 +168,16 @@
 | 343  |                           Integer Break                            |   Dynamic Programming    |
 | 344  |                           Reverse String                           |          String          |
 | 347  |                      Top-K Frequent Elements                       |  Heap & Priority_queue   |
-| 349 | Intersection of Two Arrays | Hash Table |
+| 349  |                     Intersection of Two Arrays                     |        Hash Table        |
 | 354  |                       Russian Doll Envelopes                       |   Dynamic Programming    |
 | 355  |                           Design Twitter                           |          Design          |
 | 365  |                       Water and Jug Problem                        |           Math           |
 | 367  |                        Valid Perfect Square                        |           Math           |
 | 371  |                        Sum of Two Integers                         |           Math           |
 | 372  |                             Super Pow                              |           Math           |
-| 383 | Ransom Note | Hash Table |
+| 383  |                            Ransom Note                             |        Hash Table        |
 | 389  |                        Find the Difference                         |      Bit Operation       |
-| 392 | Is Subsequence | Two Pointer | Two Pointers |
+| 392  |                           Is Subsequence                           |       Two Pointer        |
 | 398  |                         Random Pick Index                          |    Reservoir Sampling    |
 | 400  |                             Nth Digit                              |           Math           |
 | 409  |                         Longest Palindrome                         |          String          |
@@ -186,7 +186,7 @@
 | 424  |              Longest Repeating Character Replacement               |      Sliding Window      |
 | 438  |                   Find All Anagrams in a String                    |      Sliding Window      |
 | 445  |                         Add Two Numbers II                         |       Linked List        |
-| 448 | Find All Numbers Disappeared in an Array | Array |
+| 448  |              Find All Numbers Disappeared in an Array              |          Array           |
 | 455  |                           Assign Cookies                           |          Greedy          |
 | 459  |                     Repeated Substring Pattern                     |          String          |
 | 460  |                             LFU Cache                              |        Hash Table        |
@@ -194,7 +194,7 @@
 | 463  |                          Island Perimeter                          |          Array           |
 | 466  |                       Count The Repetitions                        |   Dynamic Programming    |
 | 470  |                  Implement Rand10() Using Rand7()                  |          Random          |
-| 485 | Max Consecutive Ones | Array |
+| 485  |                        Max Consecutive Ones                        |          Array           |
 | 486  |                         Predict the Winner                         |   Dynamic Programming    |
 | 491  |                      Increasing Subsequences                       | BackTracking & DFS & BFS |
 | 509  |                          Fibonacci Number                          |   Dynamic Programming    |
@@ -207,7 +207,7 @@
 | 547  |                           Friend Circles                           |       Disjoint Set       |
 | 557  |                   Reverse Words in a String III                    |          String          |
 | 560  |                       Subarray Sum Equals K                        |        Hash Table        |
-| 561 | Array Partition I | Sort |
+| 561  |                         Array Partition I                          |           Sort           |
 | 572  |                      Subtree of Another Tree                       |           Tree           |
 | 617  |                       Merge Two Binary Trees                       |           Tree           |
 | 628  |                  Maximum Product of Three Numbers                  |           Math           |
@@ -215,11 +215,11 @@
 | 643  |                     Maximum Average Subarray I                     |      Sliding Window      |
 | 645  |                            SetMismatch                             |          Array           |
 | 647  |                       Palindromic Substrings                       |          String          |
-| 657 | Robot Return to Origin | String |
+| 657  |                       Robot Return to Origin                       |          String          |
 | 662  |                    Maximum Width of Binary Tree                    |           Tree           |
 | 692  |                        Top K Frequent Words                        |  Heap & Priority_queue   |
 | 695  |                         Max Area of Island                         | BackTracking & DFS & BFS |
-| 704 | Binary Search | Binary Search |
+| 704  |                           Binary Search                            |      Binary Search       |
 | 724  |                          Find Pivot Index                          |          Array           |
 | 752  |                           Open the Lock                            | BackTracking & DFS & BFS |
 | 766  |                          Toeplitz Matrix                           |          Array           |
@@ -261,7 +261,7 @@
 | 1248 |                   Count Number of Nice Subarrays                   |      Sliding Window      |
 | 1277 |               Count Square Submatrices with All Ones               |   Dynamic Programming    |
 | 1353 |           Maximum Number of Events That Can Be Attended            |  Heap & Priority_queue   |
-| 1423 | Maximum Points You Can Obtain from Cards | Sliding Window |
+| 1423 |              Maximum Points You Can Obtain from Cards              |      Sliding Window      |
 | 1477 |      Find Two Non overlapping Sub arrays Each With Target Sum      |   Dynamic Programming    |
 | 1544 |                       Make The String Great                        |      Stack & Queue       |
 | 1545 |                 Find Kth Bit in Nth Binary String                  |          String          |
