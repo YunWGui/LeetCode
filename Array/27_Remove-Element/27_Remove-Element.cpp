@@ -17,18 +17,37 @@ Address:
 #include <vector>
 using namespace std;
 
+// 方法一：
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
-        int i, k = 0;
-        int len = nums.size();
-        for(i = 0; i < len; ++i){
-            if(val != nums[i]){
-                nums[k] = nums[i];
-                ++k;
-            }
+        int k = 0;
+
+        for(int i = 0; i < (int)nums.size(); ++i){
+            if(val != nums[i])
+                nums[k++] = nums[i];
         }
+        
         return k;
+    }
+};
+
+// 方法二：
+class Solution_2 {
+public:
+    int removeElement(vector<int>& nums, int val) {
+        int left = 0, right = 0;
+        int len = nums.size();
+
+        while ( right < len ) {
+            while ( right < len && nums[right] == val )
+                ++right;
+            
+            if ( right < len )
+                nums[left++] = nums[right++];
+        }
+
+        return left;
     }
 };
 
