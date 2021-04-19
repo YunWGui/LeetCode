@@ -15,7 +15,6 @@ class Solution(object):
   
         record = SortedSet()
         left, right = 0, 0
-        res = 0
   
         while right < len(nums):
             if right - left > k:
