@@ -263,6 +263,7 @@
 | 1353 |           Maximum Number of Events That Can Be Attended            |  Heap & Priority_queue   |
 | 1423 |              Maximum Points You Can Obtain from Cards              |      Sliding Window      |
 | 1477 |      Find Two Non overlapping Sub arrays Each With Target Sum      |   Dynamic Programming    |
+| 1486 | XOR Operation in an Array | Bit Operation |
 | 1544 |                       Make The String Great                        |      Stack & Queue       |
 | 1545 |                 Find Kth Bit in Nth Binary String                  |          String          |
 | 1546 | Maximum Number of Non Overlapping Subarrays With Sum Equals Target |   Dynamic Programming    |
