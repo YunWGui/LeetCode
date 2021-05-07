@@ -12,15 +12,17 @@ Address:
 using namespace std;
 
 // 方法一：贪心
+// 由于交易次数不受限，所有上涨数值的和，即为最佳时机
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        int ans = 0;
+        int total_gain = 0;
 
-        for ( int i = 1; i < (int)prices.size(); ++i ) 
-            ans += max( 0, prices[i] - prices[i - 1] );
+        for ( int i = 1; i < (int)prices.size(); ++i )
+            if ( prices[i - 1] < prices[i] )
+                total_gain += prices[i] - prices[i - 1];
         
-        return ans;
+        return total_gain;
     }
 };
 
